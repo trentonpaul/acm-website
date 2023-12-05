@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b2cc2db.css",
-    "main.js": "/static/js/main.a560cb43.js",
-    "static/js/787.6e99ea73.chunk.js": "/static/js/787.6e99ea73.chunk.js",
-    "static/media/bradley-hall-hero.jpg": "/static/media/bradley-hall-hero.83e868b506cbf489f839.jpg",
-    "static/media/ICPC2023.jpg": "/static/media/ICPC2023.b274bcec68b970639ca7.jpg",
-    "static/media/acm-objectives.png": "/static/media/acm-objectives.dcb4b62f2eb819b9ccf5.png",
-    "static/media/actual-acm-logo.png": "/static/media/actual-acm-logo.5e80230596350f5073dc.png",
-    "static/media/actual-acm-logo-white.png": "/static/media/actual-acm-logo-white.6c2114ed2aad377f4526.png",
-    "static/media/acm-logo.png": "/static/media/acm-logo.c9d1a596f9ce386217f2.png",
-    "static/media/close.svg": "/static/media/close.c54d8b9555a182a1add78758fa8e3ac9.svg",
-    "static/media/discord-logo.png": "/static/media/discord-logo.667df059ddf407979d68.png",
-    "static/media/hamburgerMenu.svg": "/static/media/hamburgerMenu.2e70bb476e612b1a7db95901892cfd18.svg",
-    "index.html": "/index.html",
-    "main.2b2cc2db.css.map": "/static/css/main.2b2cc2db.css.map",
-    "main.a560cb43.js.map": "/static/js/main.a560cb43.js.map",
-    "787.6e99ea73.chunk.js.map": "/static/js/787.6e99ea73.chunk.js.map"
+    "main.css": "/acm-website/static/css/main.d88f3387.css",
+    "main.js": "/acm-website/static/js/main.394d849b.js",
+    "static/js/787.6e99ea73.chunk.js": "/acm-website/static/js/787.6e99ea73.chunk.js",
+    "static/media/bradley-hall-hero.jpg": "/acm-website/static/media/bradley-hall-hero.83e868b506cbf489f839.jpg",
+    "static/media/ICPC2023.jpg": "/acm-website/static/media/ICPC2023.b274bcec68b970639ca7.jpg",
+    "static/media/acm-objectives.png": "/acm-website/static/media/acm-objectives.dcb4b62f2eb819b9ccf5.png",
+    "static/media/actual-acm-logo.png": "/acm-website/static/media/actual-acm-logo.5e80230596350f5073dc.png",
+    "static/media/actual-acm-logo-white.png": "/acm-website/static/media/actual-acm-logo-white.6c2114ed2aad377f4526.png",
+    "static/media/acm-logo.png": "/acm-website/static/media/acm-logo.c9d1a596f9ce386217f2.png",
+    "static/media/close.svg": "/acm-website/static/media/close.c54d8b9555a182a1add78758fa8e3ac9.svg",
+    "static/media/discord-logo.png": "/acm-website/static/media/discord-logo.667df059ddf407979d68.png",
+    "static/media/hamburgerMenu.svg": "/acm-website/static/media/hamburgerMenu.2e70bb476e612b1a7db95901892cfd18.svg",
+    "index.html": "/acm-website/index.html",
+    "main.d88f3387.css.map": "/acm-website/static/css/main.d88f3387.css.map",
+    "main.394d849b.js.map": "/acm-website/static/js/main.394d849b.js.map",
+    "787.6e99ea73.chunk.js.map": "/acm-website/static/js/787.6e99ea73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b2cc2db.css",
-    "static/js/main.a560cb43.js"
+    "static/css/main.d88f3387.css",
+    "static/js/main.394d849b.js"
   ]
 }
