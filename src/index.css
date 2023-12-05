@@ -1,4 +1,134 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .active {
+  text-decoration: underline;
+} */
+
+.underline-animation {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  overflow: hidden;
+  transition: color 0.15s ease-out, transform 0.15s ease-out;
+}
+
+.underline-animation::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 0%;
+  height: 1px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: center bottom;
+  transition: transform 0.15s ease-out;
+}
+
+.underline-animation.active::before {
+  width: 100%;
+  transform: scaleX(1);
+  transition: transform 0.15s ease-out;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200%;
+  }
+  100% {
+    background-position: -200%;
+  }
+}
+
+.shimmer-text-bradley {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    rgba(165, 0, 0, 0.4),
+    rgb(165, 0, 0, 1),
+    rgba(165, 0, 0, 0.4),
+    rgba(165, 0, 0, 1),
+    rgba(165, 0, 0, 0.4)
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text; /* For Safari/Chrome/iOS */
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 15s linear infinite;
+}
+
+.shimmer-text-acm {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    rgba(22, 106, 175, 0.4),
+    rgb(22, 106, 175, 1),
+    rgba(22, 106, 175, 0.4),
+    rgba(22, 106, 175, 1),
+    rgba(22, 106, 175, 0.4)
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text; /* For Safari/Chrome/iOS */
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 15s linear infinite;
+}
+
+.pill-underline {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 6px; /* Adjust as needed */
+  text-decoration: none;
+}
+
+.pill-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6px; /* Adjust to control the height of the pill shape */
+  background-color: #a50000; /* Set your desired underline color */
+  border-radius: 12px; /* Adjust to control the roundness of the pill ends */
+}
+
+.click-animation {
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+  background-color: #3a3a3a; /* Change to the desired color on click */
+  transform: scale(0.95); /* Adjust the scale factor for the click effect */
+}
+
+.exit-animation {
+  opacity: 0;
+  transform: translateX(40px); /* or any other desired animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+}
+
+/* Hide the element after the animation is complete */
+.exit-animation.exit-hidden {
+  display: none;
+}
+
+.smooth-grow {
+  transition: width 0.5s ease, height 0.5s ease;
+  transform-origin: center center;
+}
+
+/* .underline-animation.active:hover {
+  color: #333;
+}
+
+.underline-animation.active:hover::before {
+  transform: scaleX(0);
+} */
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +140,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
