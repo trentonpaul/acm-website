@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Bradley University ACM Club Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the official website for the Bradley University Association for Computing Machinery (ACM) Club.
 
-## Available Scripts
+Built with:
 
-In the project directory, you can run:
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
 
-### `npm start`
+The site is fully responsive and designed to provide a smooth experience across all device sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Live Site
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+🔗 [https://trentonpaul.github.io/acm-website/](https://trentonpaul.github.io/acm-website/)
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Mobile-first responsive design
+- Modern, component-based architecture
+- Strong type safety with TypeScript
+- Rapid styling and customization with Tailwind CSS
+- Deployed using GitHub Pages
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the project locally:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/trentonpaul/acm-website.git
+   cd acm-website
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Building and Deployment
 
-### `npm run eject`
+To create a production-ready build:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+npm run build
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To preview the production build locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm run preview
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The site is deployed via GitHub Pages. Ensure the `homepage` field in `package.json` is set correctly:
 
-## Learn More
+```json
+"homepage": "https://trentonpaul.github.io/acm-website/"
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
